@@ -1,0 +1,327 @@
+clean
+compile
+exit
+run-main scalation.GenIndexHtml
+exit
+compile
+exit
+compile
+exit
+run-main scalation.graph_db.GraphTest
+run-main scalation.graph_db.GraphGenTes
+run-main scalation.graph_db.GraphGenTest
+run-main scalation.graph_db.GraphGenTest2
+run-main scalation.graph_db.GraphGenTest3
+run-main scalation.graph_db.GraphGenTest4
+run-main scalation.graph_db.GraphGenTest5
+run-main scalation.graph_db.GraphGenTest6
+run-main scalation.graph_db.GraphGenTest7
+run-main scalation.graph_db.GraphGenTest8
+compile
+run-main scalation.graph_db.GraphTest5
+run-main scalation.graph_db.pattern_matching.test.GraphTestPattern_S
+run-main scalation.graph_db.pattern_matching.test.DualTestPattern_S
+run-main scalation.graph_db.pattern_matching.test.GraphPattern_STest
+run-main scalation.graph_db.pattern_matching.test.DualPattern_STest2
+last compile:runMain
+run-main scalation.graph_db.pattern_matching.test.DualPattern_STest2
+exit
+compile
+run-main scalation.graph_db.pattern_matching.test.DualPattern_STest2
+runMain scalation.graph_db.pattern_matching.test.DualPattern_STest2
+exit
+runMain scalation.graph_db.pattern_matching.test.DualPattern_STest
+runMain scalation.graph_db.pattern_matching.test.DualPattern_STest2
+compile
+runMain scalation.graph_db.pattern_matching.test.DualPattern_STest2
+runMain scalation.graph_db.pattern_matching.test.GraphPattern_STest2
+runMain scalation.graph_db.pattern_matching.test.StrictPattern_STest2
+runMain scalation.graph_db.pattern_matching.test.TightPattern_STest2
+compile
+runMain scalation.graph_db.pattern_matching.test.DualIsoPattern_STest2
+compile
+runMain scalation.graph_db.pattern_matching.test.DualIsoPattern_STest2
+compile
+runMain scalation.graph_db.pattern_matching.test.DualIsoPattern_STest2
+exit
+compile
+exit
+compile
+exit
+runMain scalation.ReplaceAll
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+clean
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+runMain scalation.columnar_db.RelationFTest
+runMain scalation.columnar_db.RelationTest
+runMain scalation.columnar_db.RelationTest2
+exit
+compile
+runMain scalation.columnar_db.RelationTest
+runMain scalation.columnar_db.RelationTest2
+runMain scalation.columnar_db.RelationTest3
+runMain scalation.columnar_db.RelationTest4
+runMain scalation.columnar_db.RelationTest5
+runMain scalation.columnar_db.RelationTest6
+runMain scalation.columnar_db.RelationTest7
+runMain scalation.columnar_db.RelationTest
+runMain scalation.columnar_db.RelationTest2
+runMain scalation.columnar_db.RelationTest3
+runMain scalation.columnar_db.RelationTest4
+runMain scalation.columnar_db.RelationTest5
+runMain scalation.columnar_db.RelationTest6
+runMain scalation.columnar_db.RelationTest7
+exit
+compile
+runMain scalation.columnar_db.RelationTest7
+runMain scalation.columnar_db.RelationTest6
+runMain scalation.columnar_db.RelationTest
+runMain scalation.columnar_db.RelationTest2
+runMain scalation.columnar_db.RelationTest3
+runMain scalation.columnar_db.RelationTest4
+runMain scalation.columnar_db.RelationTest5
+runMain scalation.columnar_db.RelationTest6
+runMain scalation.columnar_db.RelationTest7
+runMain scalation.columnar_db.RelationFTest
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+cd ..
+exit
+compile
+exit
+runMain scalation.columnar_db.RelationTest
+runMain scalation.columnar_db.RelationTest2
+unMain scalation.columnar_db.RelationTest8
+runMain scalation.columnar_db.RelationTest8
+runMain scalation.columnar_db.RelationTest9
+runMain scalation.columnar_db.RelationSQLTest
+runMain scalation.columnar_db.RelationSQLTest2
+runMain scalation.columnar_db.RelationSQLTest3
+runMain scalation.columnar_db.RelationSQLTest
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+Sat Aug  4 15:06:28 EDT 2018
+exit
+compile
+runMain scalation.columnar_db.MissingValuesTest2
+runMain scalation.columnar_db.OutlierTest
+exit
+compile
+runMain scalation.columnar_db.OutlierTest
+compile
+runMain scalation.columnar_db.QueryRunner
+ */
+runMain scalation.columnar_db.QueryRunner
+ */
+runMain scalation.columnar_db.QueryRunner
+compile
+runMain scalation.columnar_db.QueryRunner
+ */
+exit
+runMain scalation.columnar_db.QueryRunner
+exit
+compile
+runMain scalation.spatial.Vector3DTest
+runMain scalation.spatial.Vector2DTest
+s
+runMain scalation.spatial.Matrix3DTest
+runMain scalation.spatial.Matrix2DTest
+xit
+exit
+compile
+runMain scalation.spatial.LatLong2UTMTest
+ompile
+compile
+runMain scalation.spatial.UTM2LatLongTest
+compile
+runMain scalation.spatial.UTM2LatLongTest
+ompile
+compile
+exit
+compile
+exit
+ld file:/home/scalation/scalation_1.5/scalation_models/)
+runMain scalation.spatial.UTM2LatLongTest
+xit
+exit
+runMain scalation.spatial.UTM2LatLongTest
+xit
+exitr
+exit
+runMain scalation.spatial.UTM2LatLongTest
+runMain scalation.spatial.LatLong2UTMTest
+ompile
+compile
+runMain scalation.spatial.LatLong2UTMTest
+runMain scalation.spatial.UTM2LatLongTest
+compile
+runMain scalation.linalgebra.LatitudeLongitudeTest
+runMain scalation.spatial.LatitudeLongitudeTest
+runMain scalation.spatial.LatitudeLongitudeTest2
+runMain scalation.spatial.Distance
+runMain scalation.spatial.DistanceTester
+runMain scalation.spatial.LatitudeLongitudeTest2
+runMain scalation.spatial.LatitudeLongitudeTest3
+compile
+runMain scalation.spatial.LatitudeLongitudeTest3
+runMain scalation.spatial.LatitudeLongitudeTest2
+runMain scalation.spatial.LatitudeLongitudeTest3
+xit
+exit
+compile
+runMain scalation.spatial.LatitudeLongitudeTest4
+xit
+exit
+compile
+runMain scalation.spatial.LatitudeLongitudeTest4
+xit
+exit
+runMain scalation.spatial.Vector2DTest2
+d ..
+exit
+compile
+exit
+compile
+runMain scalation.columnar_db.RelationTest10
+o
+compile
+runMain scalation.columnar_db.RelationTest6
+xit
+cd ..
+ls
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+runMain scalation.columnar_db.MissingValuesTest
+xit
+exit
+compile
+runMain scalation.columnar_db.MissingValuesTest
+xit
+exit
+runMain scalation.columnar_db.MissingValuesTest
+compile
+runMain scalation.columnar_db.MissingValuesTest
+compile
+runMain scalation.columnar_db.OutlierTest
+runMain scalation.columnar_db.OutlierTest2
+runMain scalation.columnar_db.MissingValuesTest
+runMain scalation.columnar_db.MissingValuesTest2
+runMain scalation.columnar_db.MissingValuesTest3
+runMain scalation.columnar_db.MissingValuesTest4
+xit
+exit
+compile
+runMain scalation.graph_db.GraphTest
+exit
+compile
+package
+exit
+runMain scalation.UpVersionAll
+exit
+runMain scalation.UpVersionAll
+exit
+compile
+exit
+compile
+exit
+compile
+runMain scalation.columnar_db.RelationTest
+quit
+exit
+compile
+runMain scalation.columnar_db.RelationTest
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+runMain scalation.columnar_db.RelationSQLTest
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+runMain scalation.columnar_db.RelationSQLTest
+exit
+runMain scalation.columnar_db.RelationSQLTest4
+runMain scalation.columnar_db.RelationTest11
+compile
+runMain apps.database.TAScheduleCheck2
+exit
+compile
+exit
+compile
+runMain scalation.PrimitiveTypeTest
+exit
+compile
+cd ..
+sl
+exit
+compile
+exit
+compile
+exit
+;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/_k/7_332hxd43v2s5qwzjwkp_cc0000gn/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/Users/aimanmunir/Library/Application Support/IdeaIC2019.2/Scala/repo/org.jetbrains/sbt-structure-extractor/scala_2.12/sbt_1.0/2018.2.1+4-88400d3f/jars/sbt-structure-extractor.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+~package

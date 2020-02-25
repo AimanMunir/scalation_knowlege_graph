@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YJhFLP3NglRDCs6HoaD6myDpLx" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Desktop/project/scalation_1.6/scalation_database" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/project/scalation_1.6/scalation_modeling" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/scalation_1-2.6/scalation_modeling" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/scalation_1-4.6/scalation_modeling" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/scalation_1.6/scalation_database" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/scalation_1.6/scalation_modeling" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/scalation_1.6/scalation_statistics" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../jsoniter-scala-master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../scalation_1-2.6/scalation_modeling" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../scalation_1-4.6/scalation_database" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../scalation_1-4.6/scalation_modeling" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../scalation_1-4.6/scalation_statistics" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../scalation_1.6/scalation_modeling" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../scalation_1.6/scalation_statistics" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../scalation_1.7/scalation_database" value="PREVIEW" />
+        <entry key="$USER_HOME$/Pictures/scalation_1.6/scalation_database" value="PREVIEW" />
+        <entry key="$USER_HOME$/Pictures/scalation_1.6/scalation_mathematics" value="PREVIEW" />
+        <entry key="$USER_HOME$/Pictures/scalation_1.6/scalation_modeling" value="PREVIEW" />
+        <entry key="$USER_HOME$/Pictures/scalation_1.6/scalation_statistics" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+</project>

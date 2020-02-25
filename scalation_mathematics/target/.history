@@ -1,0 +1,500 @@
+compile
+cd ..
+exit
+compile
+cd ..
+exit
+compile
+exit
+runMain scalation.linalgebra.bld.BldAll
+compile
+runMain scalation.linalgebra.bld.BldAll
+exit
+compile
+exit
+compile
+complile
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+!vi
+compile
+exit
+compile
+exit
+compile
+runMain scalation.linalgebra.bld.BldAll
+exit
+compile
+exit
+compile
+exit
+compile
+cd ..
+exit
+compile
+runMain scalation.linalgebra.bld.BldAll
+ls
+runMain scalation.linalgebra.bld.BldAll
+compile
+exit
+compile
+runMain scalation.linalgebra.Fac_LUTest
+runMain scalation.linalgebra.Fac_LUTest2
+runMain scalation.linalgebra.Fac_LUTest3
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+exit
+compile
+clean
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+exit
+runMain scalation.UpVersionAll
+exit
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+exit
+compile
+runMain scalation.tenalgebra.Tensor3Test
+runMain scalation.tenalgebra.Tensor3Test2
+runMain scalation.tenalgebra.Tensor3Test3
+exit
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+exit
+compile
+runMain scalation.tenalgebra.Tensor3DTest
+exit
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+runMain scalation.tenalgebra.Tensor3DTest
+exit
+compile
+compile\
+compile
+exit
+compile
+runMain scalation.stat.StatVectorITest
+exit
+compile
+runMain scalation.util.SortingTest4
+exit
+compile
+ls -l
+compile
+clean
+compile
+clean
+compile
+ls -l *.scala2
+compile
+exit
+compile
+clean
+compile
+exit
+compile
+clean
+compile
+exit
+compile
+clean
+compile
+clean
+compile
+exit
+compile
+runMain scalation.math.TimeNumTest
+scalation.math.TimeNumTest2
+runMain scalation.math.TimeNumTest2
+compile
+runMain scalation.math.TimeNumTest3
+compile
+runMain scalation.math.TimeNumTest3
+runMain scalation.math.TimeNumTest2
+runMain scalation.math.TimeNumTest
+runMain scalation.util.bld.BldAll
+compile
+clean
+compile
+exit
+compile
+runMain scalation.linalgebra.bld.BldAll
+ */
+runMain scalation.linalgebra.bld.BldAll
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+complile
+compile
+exit
+compile
+runMain scalation.math.TimeNumTest3
+compile
+runMain scalation.linalgebra.bld.BldVector
+compile
+exit
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+exit
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+exit
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+exit
+compile
+runMain sclation.util.CircularQueueTest
+runMain scalation.util.CircularQueueTest
+exit
+compile
+exit
+compile
+runMain scalation.util.BiMapTest
+exit
+runMain scalation.linalgebra.ConvertTest
+runMain scalation.linalgebra.ConverterTest
+exit
+compile
+runMain scalation.math.ExtensionTest
+exit
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+exit
+ runMain scalation.linalgebra.Fac_LUTest3
+compile
+runMain scalation.util.MergeSortIndirectTest
+compile
+exit
+compile
+runMain scalation.util.MergeSortIndirectTest
+runMain scalation.util.MergeSortIndirectTest2
+compile
+runMain scalation.util.MergeSortIndirectTest2
+runMain scalation.util.MergeSortIndirectTest
+exit
+compile
+exit
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+exit
+compile
+runMain scalation.random.
+runMain scalation.random.F2Test
+runMain scalation.random.F2Test\
+runMain scalation.random.F2Test
+compile
+runMain scalation.stat.StatVectorTest6
+runMain scalation.stat.StatVectorTest7
+runMain scalation.stat.StatVectorTest8
+runMain scalation.stat.StatVectorTest7
+compile
+runMain scalation.stat.StatVectorTest8
+runMain scalation.stat.StatVectorTest7
+runMain scalation.stat.StatVectorTest8
+runMain scalation.stat.StatVectorTest7
+runMain scalation.stat.StatVectorTest8
+runMain scalation.stat.StatVectorTest7
+runMain scalation.stat.StatVectorTest6
+compile
+exit
+compile
+exit
+compile
+runMain scalation.random.CDFTest_Fisher2
+exit
+compile
+runMain scalation.linalgebra.gen.HMatrix3Test
+exit
+compile
+exit
+compile
+exit
+compile
+runMain scalation.util.CircularQueueTest
+exit
+complile
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+runMain scalation.stat.StatVecTest
+runMain scalation.linalgebra.StatVecTest
+compile
+exit
+compile
+clean
+compile
+clean
+compile
+clean
+compile
+exit
+clean
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+clean
+compile
+clean
+compile
+clean
+compile
+clean
+exit
+compile
+clean
+compile
+clean
+exit
+compile
+clean
+compile
+clean
+exit
+compile
+clean
+compile
+exit
+compile
+exit
+compile
+exit
+clean
+exit
+compile
+exit
+clean
+compile
+package
+exit
+compile
+exit
+compile
+package
+exit
+runMain scalation.UpVersionAll
+exit
+compile
+exit
+clean
+compile
+clean
+exit
+compile
+exit
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+exit
+compile
+clean
+compile
+exit
+compile
+exit
+compile
+runMain scalation.linalgebra.bld.BldVecto
+compile
+runMain scalation.linalgebra.bld.BldMatri
+compile
+exit
+runMain scalation.scalationTest
+     */
+runMain scalation.scalationTest
+exit
+compile
+runMain scalation.linalgebra.ConverterTest
+exit
+compile
+runMain scalation.math.StrNumTest
+exit
+compile
+runMain scalation.linalgebra.mem_mapped.ConverterTest
+compile
+runMain scalation.linalgebra.bld.BldAll
+exit
+compile
+exit
+compile
+runMain scalation.linalgebra.VectorDTest
+exit
+compile
+runMain scalation.linalgebra.bld.BldMatri
+compile
+exit
+runMain scalation.linalgebra.bld.BldVecto
+exit
+runMain scalation.linalgebra.bld.BldVecto
+compile
+runMain scalation.linalgebra.bld.BldVecto
+exit
+compile
+runMain scalation.util.SortingTest3
+exit
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+exit
+runMain scalation.linalgebra.bld.BldAll
+compile
+exit
+runMain scalation.linalgebra.bld.BldAll
+compile
+runMain scalation.linalgebra.MatrixDTest
+exit
+compile
+exit
+compile
+exit
+compile\
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile\
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+exit
+compile
+runMain scalation.linalgebra.bld.BldMatri
+compile
+runMain scalation.linalgebra.bld.BldVecto
+runMain scalation.linalgebra.bld.BldAll
+exit
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+runMain scalation.linalgebra.VectorDTest
+compile
+exit
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+exit
+compile
+runMain scalation.linalgebra.mem_mapped.bld.BldAll
+compile
+runMain scalation.linalgebra.mem_mapped.bld.BldAll
+compile
+runMain scalation.linalgebra.mem_mapped.bld.BldAll
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+runMain scalation.util.bld.BldSorting
+compile
+runMain scalation.util.bld.BldSorting
+compile
+runMain scalation.linalgebra.MatrixDTest2
+exit
+compile
+runMain scalation.linalgebra.MatrixDTest2
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+runMain scalation.linalgebra.mem_mapped.bld.BldAll
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+exit
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+runMain scalation.linalgebra.bld.BldAll
+compile
+exit
+compile
+exit
+compile
+runMain scalation.math.TimeNumTest
+exit
+runMain scalation.math.TimeNumTest
+exit
+compile
+runMain scalation.UpVersionAll
+compile
+exit
+runMain scalation.UpVersionAll
+compile
+exit

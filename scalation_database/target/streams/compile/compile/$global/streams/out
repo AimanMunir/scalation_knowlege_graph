@@ -1,0 +1,86 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_1.7/scalation_database/src/main/scala/scalation/graph_db/MinSpanningTree.scala:105:27: value printInOrder is not a member of scala.collection.mutable.PriorityQueue[MinSpanningTree.this.Elem][0m
+[0m[[0m[31merror[0m] [0m[0m            if (DEBUG) qu.printInOrder[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_1.7/scalation_database/src/main/scala/scalation/graph_db/MinSpanningTree.scala:111:23: value increaseKey is not a member of scala.collection.mutable.PriorityQueue[MinSpanningTree.this.Elem][0m
+[0m[[0m[31merror[0m] [0m[0m                   qu.increaseKey (Elem (ni, key(ni)), Elem (ni, cost))  // reposition ni toward front in priority queue[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_1.7/scalation_database/src/main/scala/scalation/graph_db/Partition.scala:147:38: overloaded method value ++ with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  [B >: Int](xs: Array[_ <: B])(implicit evidence$25: scala.reflect.ClassTag[B])Array[B] <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [B >: Int](xs: scala.collection.IterableOnce[B])(implicit evidence$24: scala.reflect.ClassTag[B])Array[B][0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (Int)[0m
+[0m[[0m[31merror[0m] [0m[0m        val lab    = child ++ parent ++ ilabel(i) [0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_1.7/scalation_database/src/main/scala/scalation/graph_db/Partition.scala:150:13: value set is not a member of Array[Int][0m
+[0m[[0m[31merror[0m] [0m[0m        pop.set (0)                                              // reset the population counters[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_1.7/scalation_database/src/main/scala/scalation/graph_db/Partition.scala:161:30: not enough arguments for method max: (implicit ord: scala.math.Ordering[B])Int.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter ord.[0m
+[0m[[0m[31merror[0m] [0m[0m        val mx     = pop.max ()                                  // maximum frequency count[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_1.7/scalation_database/src/main/scala/scalation/graph_db/SSShortestPath.scala:62:32: too many arguments (2) for method apply: (i: Int)Array[Double] in class Array[0m
+[0m[[0m[31merror[0m] [0m[0m        for (j <- rang if c(s, j) == 0) d(j) = MAX      // set distance to infinity if no direct edge from s[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_1.7/scalation_database/src/main/scala/scalation/graph_db/SSShortestPath.scala:76:43: too many arguments (2) for method apply: (i: Int)Array[Double] in class Array[0m
+[0m[[0m[31merror[0m] [0m[0m                for (j <- rang if c(v.id, j) > 0.0) {   // check vertex v's neighbors[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_1.7/scalation_database/src/main/scala/scalation/graph_db/SSShortestPath.scala:77:36: overloaded method value + with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Double)Double <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Float)Double <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Long)Double <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Int)Double <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Char)Double <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Short)Double <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Byte)Double <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: String)String[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (Array[Double])[0m
+[0m[[0m[31merror[0m] [0m[0m                    val alt = v.dd + c(v.id, j)         // compute alternate distance from s to j[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_1.7/scalation_database/src/main/scala/scalation/graph_db/SSShortestPath.scala:112:46: too many arguments (2) for constructor Array: (_length: Int)Array[Array[Double]][0m
+[0m[[0m[31merror[0m] [0m[0m        val c = new Array[Array[Double]] (n, n)                             // cost/weight matrix[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_1.7/scalation_database/src/main/scala/scalation/graph_db/SSShortestPath.scala:138:47: 8 more arguments than can be applied to constructor Array: (_length: Int)Array[Array[Double]][0m
+[0m[[0m[31merror[0m] [0m[0m    val c = new Array[Array[Double]] ( 0.0,   2.0, 100.0,[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_1.7/scalation_database/src/main/scala/scalation/graph_db/SSShortestPath.scala:147:17: not found: type SparseMatrixD[0m
+[0m[[0m[31merror[0m] [0m[0m    val b = new SparseMatrixD (3, 3, Array (new RowMap ((1, 2.0),   (2, 100.0)),[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_1.7/scalation_database/src/main/scala/scalation/graph_db/SSShortestPath.scala:147:49: not found: type RowMap[0m
+[0m[[0m[31merror[0m] [0m[0m    val b = new SparseMatrixD (3, 3, Array (new RowMap ((1, 2.0),   (2, 100.0)),[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_1.7/scalation_database/src/main/scala/scalation/graph_db/SSShortestPath.scala:148:49: not found: type RowMap[0m
+[0m[[0m[31merror[0m] [0m[0m                                            new RowMap ((0, 100.0), (2, 3.0)),[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_1.7/scalation_database/src/main/scala/scalation/graph_db/SSShortestPath.scala:149:49: not found: type RowMap[0m
+[0m[[0m[31merror[0m] [0m[0m                                            new RowMap ((0, 4.0),   (1, 100.0)) ))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_1.7/scalation_database/src/main/scala/scalation/graph_db/Tree.scala:194:14: value x is not a member of Array[Double][0m
+[0m[[0m[31merror[0m] [0m[0m    root.loc.x = MID[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_1.7/scalation_database/src/main/scala/scalation/graph_db/Tree.scala:195:14: value y is not a member of Array[Double][0m
+[0m[[0m[31merror[0m] [0m[0m    root.loc.y = TOP[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_1.7/scalation_database/src/main/scala/scalation/graph_db/graph_algebra/MuGraphGen.scala:84:26: not found: value RandomVecI[0m
+[0m[[0m[31merror[0m] [0m[0m            val rvec   = RandomVecI (degree, size-1, i)                // random vector of integers[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_1.7/scalation_database/src/main/scala/scalation/graph_db/graph_algebra/MuGraphGen.scala:132:56: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m required: scala.collection.mutable.Set[Int][0m
+[0m[[0m[31merror[0m] [0m[0m            for (j <- 0 until degree if ! (ch contains j)) ch(i) += j    // add the edge i -> j[0m
+[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_1.7/scalation_database/src/main/scala/scalation/graph_db/graph_algebra/MuGraphGen.scala:162:56: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m required: scala.collection.mutable.Set[Int][0m
+[0m[[0m[31merror[0m] [0m[0m            for (j <- 0 until degree if ! (ch contains j)) ch(i) += j    // add the edge i -> j[0m
+[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_1.7/scalation_database/src/main/scala/scalation/graph_db/graph_algebra/MuGraphGen.scala:186:54: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m required: scala.collection.mutable.Set[Int][0m
+[0m[[0m[31merror[0m] [0m[0m          for (j <- 0 until degree if ! (ch contains j)) ch(i) += j   // add the edge i -> j[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_1.7/scalation_database/src/main/scala/scalation/graph_db/graph_algebra/RandomGraph.scala:63:38: not found: value RandomVecS[0m
+[0m[[0m[31merror[0m] [0m[0m    def genVLabels: Array [String] = RandomVecS (nLabels, true, stream).sgen[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_1.7/scalation_database/src/main/scala/scalation/graph_db/graph_algebra/RandomGraph.scala:119:24: not found: value RandomVecS[0m
+[0m[[0m[31merror[0m] [0m[0m        val var_labs = RandomVecS (nVertices, true, stream).sgen[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m22 errors found[0m
