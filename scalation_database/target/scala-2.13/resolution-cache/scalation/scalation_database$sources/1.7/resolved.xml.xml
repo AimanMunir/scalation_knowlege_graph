@@ -4,7 +4,7 @@
 		module="scalation_database$sources"
 		revision="1.7"
 		status="integration"
-		publication="20200224155138"
+		publication="20200226105355"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

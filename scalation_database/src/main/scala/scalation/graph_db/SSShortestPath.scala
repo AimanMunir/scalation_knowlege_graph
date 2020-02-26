@@ -11,6 +11,7 @@ package scalation.graph_db
 import scala.runtime.ScalaRunTime.stringOf
 import scala.collection.mutable.{Map, PriorityQueue}
 import scala.collection.mutable.{Set => SET}
+import scala.Array.ofDim
 
 //::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 /** The `SSShortestPath` class is used to solve shortest path problems for graphs
@@ -109,7 +110,8 @@ object SSShortestPath
     def apply (g: MGraph [Double], s: Int, hasV_Weight: Boolean = false, hasE_Weight: Boolean = true): SSShortestPath =
     {
         val n = g.size
-        val c = new Array[Array[Double]] (n, n)                             // cost/weight matrix
+
+        val c = Array.ofDim[Double] (n,n)                          // cost/weight matrix
         for (i <- 0 until n; j <- g.ch(i)) {
             val v_i  = g.label(i)                              // vertex i
             val e_ij = g.elabel((i, j))                        // edge(s) i -> j
@@ -131,13 +133,15 @@ object SSShortestPath
  *  Input is in the form of matrices (`MatrixD` or `SparseMatrixD`).
  *  > runMain scalation.graph_db.SSShortestPathTest
  */
-object SSShortestPathTest extends App
+/*object SSShortestPathTest extends App
 {
     // dense matrix representation for the graph, where d_ij = distance from i to j
 
-    val c = new Array[Array[Double]] ( 0.0,   2.0, 100.0,
-                                 100.0,   0.0,   3.0,
-                                   4.0, 100.0,   0.0)
+
+    val c = Array.ofDim[Double] (3, 3) (0.0,   2.0, 100.0,
+                                  100.0,   0.0,   3.0,
+                                    4.0, 100.0,   0.0)
+
     println (c)
     val sp = new SSShortestPath (c, 0)
     println ("(d, p) = " + sp.spath ())          // shortest distance from s to all vertices)
@@ -152,7 +156,7 @@ object SSShortestPathTest extends App
     println ("(d, p) = " + sp2.spath ())        // shortest distance from s to all vertices
 
 } // SSShortestPathTest object
-
+*/
 
 //::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 /** The `SSShortestPathTest2` object is used to test the `SSShortestPath` class.
