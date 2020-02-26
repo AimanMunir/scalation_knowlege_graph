@@ -191,8 +191,8 @@ class Tree [TLabel: ClassTag] (val root: TreeNode [TLabel], depth: Double, val n
      */
 //  private val cq = if (ANIMATE) ani.getCommandQueue else null
 
-    root.loc.x = MID
-    root.loc.y = TOP
+    root.loc(0) = MID
+    root.loc(1) = TOP
 //  if (ANIMATE) cq.add (AnimateCommand (CreateNode, 0, Ellipse (), " n-0", true, root.colr,
 //                                Array (root.loc.x, root.loc.y, DIA, DIA), 0.0))
 

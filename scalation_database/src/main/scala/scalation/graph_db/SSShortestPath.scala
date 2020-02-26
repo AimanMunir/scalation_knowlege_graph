@@ -120,7 +120,7 @@ object SSShortestPath
             if (DEBUG) println (s"w ($i, $j) = $w_edge")
             val v_weight = if (hasV_Weight) v_i else 0.0
             val e_weight = if (hasE_Weight) w_edge else 1.0
-            c(i, j) = v_weight + e_weight                      // overall weight for edge i -> j
+            c(i, j) =  v_weight + e_weight                      // overall weight for edge i -> j
         } // for
         new SSShortestPath (c, s)
     } // apply

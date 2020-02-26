@@ -147,7 +147,8 @@ class Partition [TLabel: ClassTag] (g: Graph [TLabel])
         val lab    = child ++ parent ++ ilabel(i) 
         if (DEBUG) println (s"getPopularLabel: for $i lab = $lab")
 
-        pop.set (0)                                              // reset the population counters
+        for (i<-0 to pop.length) pop(i) = 0
+        //pop.set (0)                                              // reset the population counters
         for (i <- lab.indices) pop(lab(i)) = pop(lab(i)) + 1     // increment population count
         ilabel2(i) = pickMostPopular ()                          // assign the index of highest count
     } // getPopularLabel
@@ -158,7 +159,7 @@ class Partition [TLabel: ClassTag] (g: Graph [TLabel])
     private def pickMostPopular (): Int =
     { 
         val mxList = ArrayBuffer [Int] ()                        // list to hold most popular
-        val mx     = pop.max ()                                  // maximum frequency count
+        val mx = popmax                                  // maximum frequency count
         for (i <- pop.indices if pop(i) == mx) mxList += i       // add to most popular list
         println (s"pickMostPopular: mxList = $mxList")
         ilabel (mxList (rng.igen % mxList.size))                 // randomly pick one

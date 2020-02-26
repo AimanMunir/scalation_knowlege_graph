@@ -10,13 +10,9 @@
 [0m[[0m[31merror[0m] [0m[0m cannot be applied to (Int)[0m
 [0m[[0m[31merror[0m] [0m[0m        val lab    = child ++ parent ++ ilabel(i) [0m
 [0m[[0m[31merror[0m] [0m[0m                                     ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_knowlege_graph/scalation_database/src/main/scala/scalation/graph_db/Partition.scala:150:13: value set is not a member of Array[Int][0m
-[0m[[0m[31merror[0m] [0m[0m        pop.set (0)                                              // reset the population counters[0m
-[0m[[0m[31merror[0m] [0m[0m            ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_knowlege_graph/scalation_database/src/main/scala/scalation/graph_db/Partition.scala:161:30: not enough arguments for method max: (implicit ord: scala.math.Ordering[B])Int.[0m
-[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter ord.[0m
-[0m[[0m[31merror[0m] [0m[0m        val mx     = pop.max ()                                  // maximum frequency count[0m
-[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_knowlege_graph/scalation_database/src/main/scala/scalation/graph_db/Partition.scala:162:18: not found: value popmax[0m
+[0m[[0m[31merror[0m] [0m[0m        val mx = popmax                                  // maximum frequency count[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
 [0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_knowlege_graph/scalation_database/src/main/scala/scalation/graph_db/SSShortestPath.scala:63:32: too many arguments (2) for method apply: (i: Int)Array[Double] in class Array[0m
 [0m[[0m[31merror[0m] [0m[0m        for (j <- rang if c(s, j) == 0) d(j) = MAX      // set distance to infinity if no direct edge from s[0m
 [0m[[0m[31merror[0m] [0m[0m                               ^[0m
@@ -35,37 +31,16 @@
 [0m[[0m[31merror[0m] [0m[0m cannot be applied to (Array[Double])[0m
 [0m[[0m[31merror[0m] [0m[0m                    val alt = v.dd + c(v.id, j)         // compute alternate distance from s to j[0m
 [0m[[0m[31merror[0m] [0m[0m                                   ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_knowlege_graph/scalation_database/src/main/scala/scalation/graph_db/SSShortestPath.scala:123:32: too many arguments (3) for method update: (i: Int, x: Array[Double])Unit[0m
-[0m[[0m[31merror[0m] [0m[0m            c(i, j) = v_weight + e_weight                      // overall weight for edge i -> j[0m
-[0m[[0m[31merror[0m] [0m[0m                               ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_knowlege_graph/scalation_database/src/main/scala/scalation/graph_db/Tree.scala:194:14: value x is not a member of Array[Double][0m
-[0m[[0m[31merror[0m] [0m[0m    root.loc.x = MID[0m
-[0m[[0m[31merror[0m] [0m[0m             ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_knowlege_graph/scalation_database/src/main/scala/scalation/graph_db/Tree.scala:195:14: value y is not a member of Array[Double][0m
-[0m[[0m[31merror[0m] [0m[0m    root.loc.y = TOP[0m
-[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_knowlege_graph/scalation_database/src/main/scala/scalation/graph_db/SSShortestPath.scala:123:33: too many arguments (3) for method update: (i: Int, x: Array[Double])Unit[0m
+[0m[[0m[31merror[0m] [0m[0m            c(i, j) =  v_weight + e_weight                      // overall weight for edge i -> j[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
 [0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_knowlege_graph/scalation_database/src/main/scala/scalation/graph_db/graph_algebra/MuGraphGen.scala:84:26: not found: value RandomVecI[0m
 [0m[[0m[31merror[0m] [0m[0m            val rvec   = RandomVecI (degree, size-1, i)                // random vector of integers[0m
 [0m[[0m[31merror[0m] [0m[0m                         ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_knowlege_graph/scalation_database/src/main/scala/scalation/graph_db/graph_algebra/MuGraphGen.scala:132:56: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
-[0m[[0m[31merror[0m] [0m[0m required: scala.collection.mutable.Set[Int][0m
-[0m[[0m[31merror[0m] [0m[0m            for (j <- 0 until degree if ! (ch contains j)) ch(i) += j    // add the edge i -> j[0m
-[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_knowlege_graph/scalation_database/src/main/scala/scalation/graph_db/graph_algebra/MuGraphGen.scala:162:56: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
-[0m[[0m[31merror[0m] [0m[0m required: scala.collection.mutable.Set[Int][0m
-[0m[[0m[31merror[0m] [0m[0m            for (j <- 0 until degree if ! (ch contains j)) ch(i) += j    // add the edge i -> j[0m
-[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_knowlege_graph/scalation_database/src/main/scala/scalation/graph_db/graph_algebra/MuGraphGen.scala:186:54: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
-[0m[[0m[31merror[0m] [0m[0m required: scala.collection.mutable.Set[Int][0m
-[0m[[0m[31merror[0m] [0m[0m          for (j <- 0 until degree if ! (ch contains j)) ch(i) += j   // add the edge i -> j[0m
-[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
 [0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_knowlege_graph/scalation_database/src/main/scala/scalation/graph_db/graph_algebra/RandomGraph.scala:63:38: not found: value RandomVecS[0m
 [0m[[0m[31merror[0m] [0m[0m    def genVLabels: Array [String] = RandomVecS (nLabels, true, stream).sgen[0m
 [0m[[0m[31merror[0m] [0m[0m                                     ^[0m
 [0m[[0m[31merror[0m] [0m[0m/Users/aimanmunir/Downloads/scalation_knowlege_graph/scalation_database/src/main/scala/scalation/graph_db/graph_algebra/RandomGraph.scala:119:24: not found: value RandomVecS[0m
 [0m[[0m[31merror[0m] [0m[0m        val var_labs = RandomVecS (nVertices, true, stream).sgen[0m
 [0m[[0m[31merror[0m] [0m[0m                       ^[0m
-[0m[[0m[31merror[0m] [0m[0m17 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m11 errors found[0m

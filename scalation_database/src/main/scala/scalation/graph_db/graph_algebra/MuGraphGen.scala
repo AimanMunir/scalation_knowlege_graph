@@ -129,7 +129,7 @@ class MuGraphGen [TLabel: ClassTag] (typeSelector: TLabel)
         val ch = Array.ofDim [SET [Int]] (size)
         for (i <- ch.indices) {                                          // each vertex i
             val degree = rand.nextInt (avDegree * 2 + 1)                 // out degree
-            for (j <- 0 until degree if ! (ch contains j)) ch(i) += j    // add the edge i -> j
+            for (j <- 0 until degree if ! (ch contains mutable.Set(j))) ch(i) += j    // add the edge i -> j
         } // for
 
         // 2.1 is used in WWW graph pg 72 of m&m graph data
@@ -159,7 +159,7 @@ class MuGraphGen [TLabel: ClassTag] (typeSelector: TLabel)
         val ch = Array.ofDim [SET [Int]] (size)
         for (i <- ch.indices) {                                          // each vertex i
             val degree = powInt (0, maxDegree, distPow)                  // out degree
-            for (j <- 0 until degree if ! (ch contains j)) ch(i) += j    // add the edge i -> j
+            for (j <- 0 until degree if ! (ch contains mutable.Set(j))) ch(i) += j    // add the edge i -> j
         } // for
 
         val label = randDistLabels (size, nLabels)
@@ -183,7 +183,7 @@ class MuGraphGen [TLabel: ClassTag] (typeSelector: TLabel)
       val ch = Array.ofDim [SET [Int]] (size)
       for (i <- ch.indices) {                                          // each vertex i
       val degree = powInt (0, maxDegree, distPow)                   // out degree
-          for (j <- 0 until degree if ! (ch contains j)) ch(i) += j   // add the edge i -> j
+          for (j <- 0 until degree if ! (ch contains mutable.Set(j))) ch(i) += j   // add the edge i -> j
       } // for
 
       val label = powDistLabels (size, nLabels, distPow)
